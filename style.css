@@ -1,0 +1,70 @@
+div{
+    height:650px;
+    width:400px;
+    background-color: White;
+    text-align: center;
+    color:white;
+    background-color: black;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 2%;
+}
+body{
+    background-image: url("mountains.webp");
+    background-size: cover;
+}
+.login{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input1{
+    font-size:18px;
+    text-align: center;
+    height:50px;
+    width: 70%;
+    border-radius: 100px;
+    border: 3px solid gold;
+    cursor:pointer;
+    color: darkgreen;
+}
+.input2{
+    font-size:18px;
+    text-align: center;
+    height:50px;
+    width: 70%;
+    border-radius: 100px;
+    border: 3px solid gold;
+    cursor: pointer;
+    color: darkgreen;
+}
+.button{
+    height: 40px;
+    width:40%;
+    border-radius: 100px;
+    font-size: large;
+    background-color: blue;
+    color:wheat;
+    cursor:pointer;
+}
+.para2{
+    text-align: right;
+    margin-right: 30px;
+}
+span{
+    color:blueviolet;
+}
+.cross{
+    text-align: right;
+    margin-right: 10px;
+}
+img{
+    height:25px;
+    width:25px;
+    margin-bottom: 2px;
+}
+.imx{
+    height:60px;
+    width:60px;
+}
