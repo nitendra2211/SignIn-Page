@@ -5,9 +5,7 @@ div{
     text-align: center;
     color:white;
     background-color: black;
-    margin-top: 25%;
-    margin-bottom: 25%;
-    margin-left: 50%;
+    margin: auto;
     border-radius: 2%;
 }
 body{
