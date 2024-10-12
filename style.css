@@ -1,174 +1,69 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #1c1c29, #262636);
-}
-
-.container {
-    background: linear-gradient(135deg, #ff6a00, #ee0979);
-    padding: 2rem 1.5rem;
-    width: 90%;
-    max-width: 400px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+div{
+    height:650px;
+    width:400px;
+    background-color: White;
     text-align: center;
-    transition: all 0.3s ease;
-    position: relative;
+    color:white;
+    background-color: black;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 50%;
+    border-radius: 2%;
 }
-
-.login {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+body{
+    background-image: url("mountains.webp");
+    background-size: cover;
 }
-
-.input1,
-.input2 {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    font-size: 14px;
-    transition: all 0.3s ease;
+.login{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.input1:hover,
-.input2:hover,
-.input1:focus,
-.input2:focus {
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-    outline: none;
+.input1{
+    font-size:18px;
+    text-align: center;
+    height:50px;
+    width: 70%;
+    border-radius: 100px;
+    border: 3px solid gold;
+    cursor:pointer;
+    color: darkgreen;
 }
-
-.button {
-    width: 100%;
-    padding: 12px;
-    border-radius: 25px;
-    background: linear-gradient(135deg, #00c9ff, #92fe9d);
-    color: #111;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
+.input2{
+    font-size:18px;
+    text-align: center;
+    height:50px;
+    width: 70%;
+    border-radius: 100px;
+    border: 3px solid gold;
     cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 10px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    color: darkgreen;
 }
-
-.button:hover {
-    background: linear-gradient(135deg, #fc466b, #3f5efb);
-    color: white;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+.button{
+    height: 40px;
+    width:40%;
+    border-radius: 100px;
+    font-size: large;
+    background-color: blue;
+    color:wheat;
+    cursor:pointer;
 }
-
-.cross i {
-    color: #ffcc00;
-    font-size: 24px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-}
-
-.para {
-    font-size: 14px;
-    color: #ddd;
-    margin-bottom: 15px;
-}
-
-.para2 {
-    font-size: 12px;
-    color: #ffcc00;
+.para2{
     text-align: right;
+    margin-right: 30px;
 }
-
-span {
-    color: #ff6a00;
-    cursor: pointer;
-    font-weight: bold;
+span{
+    color:blueviolet;
 }
-
-img {
-    height: 25px;
-    width: 25px;
-    margin-top: 15px;
-    transition: all 0.3s ease;
+.cross{
+    text-align: right;
+    margin-right: 10px;
 }
-
-img:hover {
-    transform: scale(1.1);
+img{
+    height:25px;
+    width:25px;
+    margin-bottom: 2px;
 }
-
-@media (min-width: 768px) {
-    .container {
-        padding: 2.5rem 2rem;
-    }
-
-    .login {
-        font-size: 2rem;
-    }
-
-    .input1,
-    .input2 {
-        padding: 14px;
-        font-size: 16px;
-    }
-
-    .button {
-        padding: 14px;
-        font-size: 1.1rem;
-    }
-
-    img {
-        height: 30px;
-        width: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .login {
-        font-size: 1.6rem;
-    }
-
-    .input1,
-    .input2 {
-        padding: 10px;
-        font-size: 12px;
-    }
-
-    .button {
-        padding: 10px;
-        font-size: 0.9rem;
-    }
-
-    img {
-        height: 20px;
-        width: 20px;
-    }
-
-    .para,
-    .para2 {
-        font-size: 12px;
-    }
+.imx{
+    height:60px;
+    width:60px;
 }
