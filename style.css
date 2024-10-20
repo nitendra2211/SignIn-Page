@@ -41,9 +41,12 @@ body{
     width:40%;
     border-radius: 100px;
     font-size: large;
-    background-color: blue;
+    background-color: #007bff;
     color:wheat;
     cursor:pointer;
+}
+.button:hover {
+    background-color: #0056b3;
 }
 .para2{
     text-align: right;
