@@ -41,9 +41,18 @@ body{
     width:40%;
     border-radius: 100px;
     font-size: large;
-    background-color: blue;
-    color:wheat;
+    background-color: #30305b;
+    color:white;
     cursor:pointer;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* More pronounced shadow on hover */
+}
+.button:hover {
+    background-color: #7979bf;
+    color: black;
+    
+    /*box-shadow: 0 4px 8px rgba(244, 239, 239, 0.2);*/ /* Initial shadow for a 3D effect */
+    transition: 0.3s ease all;
+    transform: scale(1.1); /* Scale the image to 110% */
 }
 .para2{
     text-align: right;
