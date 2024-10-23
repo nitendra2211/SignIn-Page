@@ -8,30 +8,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    
-    <div>
-      <p class="cross">  <i class="fa-solid fa-xmark" style=" color: #FFD43B;
-     font-size: xx-large;"></i> </p>
+    <div class="container">
+        <label class="theme-switch">
+            <i class="fa-solid fa-sun" id="sun-icon"></i>
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+            <i class="fa-solid fa-moon" id="moon-icon"></i>
+        </label>
 
-    <h1 class="login">
-        Sign In
-    </h1>
-    <br>
-    <br>
-    <p class="para">Please enter your username and password</p>
-    <br>
-    <input class="input1" type="username" placeholder="Username" required>
-    <br>
-    <br>
-    <br>
-    <input class="input2" placeholder="Password" type="password" required>
-    <br>
-    <p class="para2" >Forgot<span> <a href="forgot_password.html">password?</a></span></p>
-    <br>
-    <button class="button" type="submit" >Sign In</button>
-    <p>Or Sign In with</p>
-    <img src="google-icon-1.png"> 
+        <p class="cross">  
+            <i class="fa-solid fa-xmark" style="color: #FFD43B; font-size: xx-large;"></i> 
+        </p>
 
+        <h1 class="login">Sign In</h1>
+        <br>
+        <br>
+        <p class="para">Please enter your username and password</p>
+        <br>
+        <input class="input1" type="username" placeholder="Username" required>
+        <br>
+        <br>
+        <br>
+        <input class="input2" placeholder="Password" type="password" required>
+        <br>
+        <p class="para2">Forgot<span> <a href="forgot_password.html">password?</a></span></p>
+        <br>
+        <button class="button" type="submit">Sign In</button>
+        <p>Or Sign In with</p>
+        <img src="google-icon-1.png">
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
