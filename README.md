@@ -17,7 +17,7 @@ This project is a beautifully designed sign-in page, created using only **HTML**
 - **HTML5**: Structure of the webpage
 - **CSS3**: Styling and layout
 
-## How to Use
+## How to Use:
 1. Clone this repository:
    ```bash
    git clone https://github.com/YourUsername/YourRepository.git
