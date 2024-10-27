@@ -93,28 +93,3 @@ function password_strength(){
             break;
     }
 }
-
-window.onload = function() {
-    const savedEmail = localStorage.getItem('savedEmail');
-    const rememberMeChecked = localStorage.getItem('rememberMe') === 'true';
-    
-    if (savedEmail && rememberMeChecked) {
-        document.getElementById('email').value = savedEmail;
-        document.getElementById('rememberMe').checked = true;
-        alert("Welcome back! We've pre-filled your email for you.");
-    }
-};
-
-function handleSignIn() {
-    const email = document.getElementById('email').value;
-    const rememberMe = document.getElementById('rememberMe').checked;
-
-    if (rememberMe) {
-        localStorage.setItem('savedEmail', email);
-        localStorage.setItem('rememberMe', 'true');
-    } else {
-        localStorage.removeItem('savedEmail');
-        localStorage.removeItem('rememberMe');
-    }
-    alert('Sign-in process initiated');
-}
