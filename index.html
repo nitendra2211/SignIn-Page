@@ -21,12 +21,17 @@
         </p>
 
         <h1 class="login">Sign In</h1>
-        <br>
-        <br>
         <p class="para">Please enter your username and password</p>
         <br>
         <input class="input1" type="username" placeholder="Username" required>
         <br>
+        <br>
+        <input class="input1" type="email" id="email" placeholder="Email" required>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" id="rememberMe"> Remember Me
+        </label>
         <br>
         <br>
         <input class="input2" id="password" type="password" placeholder="Enter Password" oninput="password_strength()">
@@ -34,7 +39,7 @@
         <br>
         <p class="para2">Forgot<span> <a href="forgot_password.html">password?</a></span></p>
         <br>
-        <button class="button" type="submit">Sign In</button>
+        <button class="button" type="button" onclick="handleSignIn()">Sign In</button>
         <p>Or Sign In with</p>
         <img src="google-icon-1.png">
     </div>
